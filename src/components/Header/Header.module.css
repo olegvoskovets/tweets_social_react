@@ -1,0 +1,50 @@
+@import url("../../index.css");
+
+.header {
+  padding: 10px 0;
+  height: 50px;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  top: 0;
+  background: var(--background-main-color);
+  box-shadow: var(--box-shadow-main);
+  z-index: 2;
+}
+.header_position {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+}
+.rigth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.currentUser_login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 15px;
+}
+.currentUser_foto {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.logOut {
+  cursor: pointer;
+  color: white;
+}
+.select {
+  width: 350px;
+  color: black;
+}

@@ -1,0 +1,10 @@
+@import url("./index.css");
+
+.background {
+  background: #7d1de4;
+  min-height: 100vh;
+}
+.main {
+  padding: 20px 0;
+  margin: 0 auto;
+}

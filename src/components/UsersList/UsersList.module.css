@@ -1,0 +1,8 @@
+@import url("../../index.css");
+
+.user_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 48px;
+  margin-bottom: 20px;
+}

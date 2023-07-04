@@ -1,0 +1,42 @@
+@import url("../../index.css");
+
+.cardUser {
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 8px solid #ebd8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -40px;
+  left: 150px;
+  background: var(--background-main-color);
+}
+/* .card_foto_group {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: relative;
+} */
+.card_User {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  object-fit: cover;
+}
+.cardUser_foto {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+
+  object-fit: cover;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+}

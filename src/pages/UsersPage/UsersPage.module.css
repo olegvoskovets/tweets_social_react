@@ -1,0 +1,12 @@
+.load_more {
+  padding: 15px 20px;
+  border-radius: 11px;
+  background: var(--background-main-color);
+  border: none;
+  color: white;
+  box-shadow: 0px 3.4369285106658936px 3.4369285106658936px 0px
+    rgba(0, 0, 0, 0.25);
+}
+.usersPage {
+  position: relative;
+}

@@ -1,0 +1,50 @@
+@import url("../../index.css");
+
+.leftBar {
+  width: 15%;
+  position: sticky;
+  top: 70px;
+  height: calc(100vh - 70px);
+}
+.container2 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.menu {
+  background: var(--background-main-color);
+  box-shadow: var(--box-shadow-main);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #222;
+  border-radius: 10px;
+}
+hr {
+  border: none;
+  margin: 20px 0;
+  height: 0.5px;
+  background-color: #5736a3;
+}
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.active {
+  font-weight: bold;
+}
+.currentUser {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.Friends {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
